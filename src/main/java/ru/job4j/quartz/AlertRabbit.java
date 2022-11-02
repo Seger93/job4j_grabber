@@ -2,7 +2,6 @@ package ru.job4j.quartz;
 
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
-
 import java.io.*;
 import java.util.Properties;
 import static org.quartz.JobBuilder.*;
@@ -12,12 +11,12 @@ import static org.quartz.SimpleScheduleBuilder.*;
 public class AlertRabbit {
     public static void main(String[] args) {
         try {
-            Properties properties = timePreferences("src/main/resources/rabbit.properties");
+            Properties properties = loadProperties("rabbit.properties");
             Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
             scheduler.start();
             JobDetail job = newJob(Rabbit.class).build();
             SimpleScheduleBuilder times = simpleSchedule()
-                    .withIntervalInSeconds(Integer.parseInt((properties.getProperty("rabbit.interval"))))
+                    .withIntervalInSeconds(Integer.parseInt(properties.getProperty("rabbit.interval")))
                     .repeatForever();
             Trigger trigger = newTrigger()
                     .startNow()
@@ -31,9 +30,9 @@ public class AlertRabbit {
         }
     }
 
-    public static Properties timePreferences(String path) throws FileNotFoundException {
+    public static Properties loadProperties(String path) throws FileNotFoundException {
         Properties properties = new Properties();
-        try (FileInputStream in = new FileInputStream(path)) {
+        try (InputStream in = AlertRabbit.class.getClassLoader().getResourceAsStream(path)) {
             properties.load(in);
         } catch (IOException e) {
             e.printStackTrace();
