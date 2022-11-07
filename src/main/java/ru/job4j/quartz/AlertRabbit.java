@@ -2,40 +2,41 @@ package ru.job4j.quartz;
 
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
+
 import java.io.*;
 import java.sql.*;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Properties;
+
 import static org.quartz.JobBuilder.*;
 import static org.quartz.TriggerBuilder.*;
 import static org.quartz.SimpleScheduleBuilder.*;
 
 public class AlertRabbit {
 
-    private static Properties prop = new Properties();
-
-    private static Connection initConnection() throws ClassNotFoundException, SQLException {
-        Class.forName(prop.getProperty("driver_class"));
+    private static Connection initConnection(Properties properties) throws ClassNotFoundException, SQLException {
+        Class.forName(properties.getProperty("driver_class"));
         return DriverManager.getConnection(
-                prop.getProperty("url"),
-                prop.getProperty("login"),
-                prop.getProperty("password")
+                properties.getProperty("url"),
+                properties.getProperty("login"),
+                properties.getProperty("password")
         );
     }
 
-    public static Properties loadProperties(String path) throws FileNotFoundException {
+    public static Properties loadProperties(String path) {
+        Properties properties = new Properties();
         try (InputStream in = AlertRabbit.class.getClassLoader().getResourceAsStream(path)) {
-            prop.load(in);
+            properties.load(in);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return prop;
+        return properties;
     }
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         Properties properties = loadProperties("rabbit.properties");
-        try (Connection connection = initConnection()) {
+        try (Connection connection = initConnection(properties)) {
             Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
             scheduler.start();
             JobDataMap data = new JobDataMap();
@@ -71,9 +72,8 @@ public class AlertRabbit {
             System.out.println("Rabbit runs here ...");
             Connection cn = (Connection) context.getJobDetail()
                     .getJobDataMap().get("connection");
-            try {
-                 PreparedStatement statement = cn.prepareStatement(
-                         "insert into rabbit(created_date) values (?)");
+            try (PreparedStatement statement = cn.prepareStatement(
+                    "insert into rabbit(created_date) values (?)")) {
                 statement.setTimestamp(1,
                         Timestamp.valueOf(LocalDateTime.now().truncatedTo(ChronoUnit.SECONDS)));
                 statement.execute();
