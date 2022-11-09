@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 public class HabrCareerDateTimeParser implements DateTimeParser {
 
-    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("dd-MMMM-EEEE-yyyy HH:mm:ss");
+    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ISO_OFFSET_DATE_TIME;
 
     @Override
     public LocalDateTime parse(String parse) {
