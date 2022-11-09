@@ -5,15 +5,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
 import java.io.IOException;
 
 public class HabrCareerParse {
-
     private static final String SOURCE_LINK = "https://career.habr.com";
-
     private static final String PAGE_LINK = String.format("%s/vacancies/java_developer", SOURCE_LINK);
-
     private static final int PAGE = 5;
 
     public static void main(String[] args) throws IOException {
@@ -34,4 +30,3 @@ public class HabrCareerParse {
         }
     }
 }
-
