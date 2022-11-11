@@ -8,7 +8,7 @@ public class Post {
     private String title; //* название вакансии
     private String link; //* ссылка на описание вакансии
     private String description; //* описание вакансии
-    private LocalDateTime localDateTime; //* дата создания вакансии
+    private LocalDateTime created; //* дата создания вакансии
 
     public int getId() {
         return id;
@@ -27,7 +27,7 @@ public class Post {
     }
 
     public LocalDateTime getLocalDateTime() {
-        return localDateTime;
+        return created;
     }
 
     public void setId(int id) {
@@ -47,7 +47,7 @@ public class Post {
     }
 
     public void setLocalDateTime(LocalDateTime localDateTime) {
-        this.localDateTime = localDateTime;
+        this.created = localDateTime;
     }
 
     @Override
@@ -57,7 +57,7 @@ public class Post {
                 + ", title='" + title + '\''
                 + ", link='" + link + '\''
                 + ", description='" + description + '\''
-                + ", localDateTime=" + localDateTime
+                + ", localDateTime=" + created
                 + '}';
     }
 
