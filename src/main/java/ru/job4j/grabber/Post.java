@@ -4,11 +4,11 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class Post {
-    private int id; // идентификатор ваканси
-    private String title; // название вакансии
-    private String link; // ссылка на описание вакансии
-    private String description; // описание вакансии
-    private LocalDateTime created; // дата создания вакансии
+    private int id;
+    private String title;
+    private String link;
+    private String description;
+    private LocalDateTime created;
 
     public int getId() {
         return id;
