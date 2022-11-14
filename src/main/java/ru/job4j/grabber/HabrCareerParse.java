@@ -21,14 +21,14 @@ public class HabrCareerParse implements Parse {
     }
 
     private String retrieveDescription(String link) {
-        String rsl = null;
+        String rsl;
         try {
             Connection connection = Jsoup.connect(link);
             Document document = connection.get();
             Element description = document.select(".style-ugc").first();
             rsl = description.text();
-        } catch (IllegalArgumentException | IOException e) {
-            e.printStackTrace();
+        } catch (IOException e) {
+            throw new IllegalArgumentException();
         }
         return rsl;
     }
@@ -61,8 +61,8 @@ public class HabrCareerParse implements Parse {
                 Document document = connection.get();
                 Elements rows = document.select(".vacancy-card__inner");
                 rows.forEach(row -> postList.add(post(row)));
-            } catch (IllegalArgumentException | IOException e) {
-                e.printStackTrace();
+            } catch (IOException e) {
+                throw new IllegalArgumentException();
             }
         }
         return postList;
