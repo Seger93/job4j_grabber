@@ -5,14 +5,13 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class HabrCareerParse implements Parse {
     private static final String SOURCE_LINK = "https://career.habr.com";
-    private static final String PAGE_LINK = String.format("%s/vacancies/java_developer", SOURCE_LINK);
+    private static final String PAGE_LINK = String.format("%s/vacancies/java_developer?page=", SOURCE_LINK);
     private static final int PAGE = 5;
 
     private final DateTimeParser dateTimeParser;
@@ -28,7 +27,7 @@ public class HabrCareerParse implements Parse {
             Document document = connection.get();
             Element description = document.select(".style-ugc").first();
             rsl = description.text();
-        } catch (IOException e) {
+        } catch (IllegalArgumentException | IOException e) {
             e.printStackTrace();
         }
         return rsl;
@@ -44,6 +43,7 @@ public class HabrCareerParse implements Parse {
     }
 
     public static void main(String[] args) {
+        System.out.println("Подождите, идет загрузка....");
         DateTimeParser dateTimeParser = new HabrCareerDateTimeParser();
         HabrCareerParse habrCareerParse = new HabrCareerParse(dateTimeParser);
         List<Post> posts = habrCareerParse.list(PAGE_LINK);
@@ -57,11 +57,11 @@ public class HabrCareerParse implements Parse {
         List<Post> postList = new ArrayList<>();
         for (int i = 1; i <= PAGE; i++) {
             try {
-                Connection connection = Jsoup.connect(PAGE_LINK + "?page=" + i);
+                Connection connection = Jsoup.connect(link + i);
                 Document document = connection.get();
                 Elements rows = document.select(".vacancy-card__inner");
                 rows.forEach(row -> postList.add(post(row)));
-            } catch (IOException e) {
+            } catch (IllegalArgumentException | IOException e) {
                 e.printStackTrace();
             }
         }
