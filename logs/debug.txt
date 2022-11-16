@@ -1,0 +1,17 @@
+2022-11-16 23:23:36,854 ERROR ru.job4j.grabber.PsqlStore:main:122 - Ошибка соеденения или параметров
+java.lang.IllegalStateException: org.postgresql.util.PSQLException: The server requested SCRAM-based authentication, but no password was provided.
+	at ru.job4j.grabber.PsqlStore.main(PsqlStore.java:119)
+Caused by: org.postgresql.util.PSQLException: The server requested SCRAM-based authentication, but no password was provided.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.lambda$doAuthentication$4(ConnectionFactoryImpl.java:804)
+	at org.postgresql.core.v3.AuthenticationPluginManager.withPassword(AuthenticationPluginManager.java:81)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:801)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at ru.job4j.grabber.PsqlStore.<init>(PsqlStore.java:26)
+	at ru.job4j.grabber.PsqlStore.main(PsqlStore.java:106)

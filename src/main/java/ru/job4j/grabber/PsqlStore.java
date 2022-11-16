@@ -1,15 +1,20 @@
 package ru.job4j.grabber;
 
+import org.slf4j.LoggerFactory;
+
 import java.io.InputStream;
 import java.sql.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+import org.slf4j.Logger;
 
 public class PsqlStore implements Store, AutoCloseable {
 
     private Connection cnn;
+
+    private static final Logger LOG = LoggerFactory.getLogger(PsqlStore.class.getName());
 
     public PsqlStore(Properties cfg) throws SQLException {
         try {
@@ -40,7 +45,7 @@ public class PsqlStore implements Store, AutoCloseable {
                 }
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Ошибка создания вакансии", e);
         }
     }
 
@@ -54,7 +59,7 @@ public class PsqlStore implements Store, AutoCloseable {
                 }
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Ошибка получения списка всех вакнсий", e);
         }
         return posts;
     }
@@ -70,7 +75,7 @@ public class PsqlStore implements Store, AutoCloseable {
                 }
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Ошибка при получении по id", e);
         }
         return post;
     }
@@ -97,20 +102,23 @@ public class PsqlStore implements Store, AutoCloseable {
             Properties config = new Properties();
             config.load(in);
             LocalDateTime localTime = LocalDateTime.now();
-            PsqlStore psqlStore = new PsqlStore(config);
-            Post post = new Post("java", "https://career.habr.com/vacancies/1000110280",
-                    "Бэкенд разработчик, Старший (Senior) • Java", localTime);
-            Post post1 = new Post("java", "https://career.habr.com/vacancies/1000110280",
-                    "Бэкенд разработчик, Старший (Senior) • Java", localTime);
-            Post post2 = new Post("java", "https://career.habr.com/vacancies/1000110333",
-                    "Бэкенд разработчик, Младший(Junior) • Java", localTime);
-            psqlStore.save(post);
-            psqlStore.save(post1);
-            psqlStore.save(post2);
-            System.out.println(psqlStore.getAll());
-            System.out.println(psqlStore.findById(1));
+            try (PsqlStore psqlStore = new PsqlStore(config)) {
+                Post post = new Post("java", "https://career.habr.com/vacancies/1000110280",
+                        "Бэкенд разработчик, Старший (Senior) • Java", localTime);
+                Post post1 = new Post("java", "https://career.habr.com/vacancies/1000110280",
+                        "Бэкенд разработчик, Старший (Senior) • Java", localTime);
+                Post post2 = new Post("java", "https://career.habr.com/vacancies/1000110333",
+                        "Бэкенд разработчик, Младший(Junior) • Java", localTime);
+                psqlStore.save(post);
+                psqlStore.save(post1);
+                psqlStore.save(post2);
+                System.out.println(psqlStore.getAll());
+                System.out.println(psqlStore.findById(1));
+            } catch (Exception e) {
+                throw new IllegalStateException(e);
+            }
         } catch (Exception e) {
-            e.printStackTrace();
+            LOG.error("Ошибка соеденения или параметров", e);
         }
     }
 }
