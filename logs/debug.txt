@@ -46,3 +46,130 @@ Caused by: org.postgresql.util.PSQLException: The server requested SCRAM-based a
 2022-11-20 01:56:33,244 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-174b0bbc-4a8e-4526-a3bc-6bef7c8e7a18', class=ru.job4j.grabber.Grabber$GrabJob
 2022-11-20 01:56:33,244 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
 2022-11-20 01:56:33,244 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-174b0bbc-4a8e-4526-a3bc-6bef7c8e7a18
+2022-11-20 02:12:20,275  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 02:12:20,278  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 02:12:20,288  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 02:12:20,290  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 02:12:20,291  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 02:12:20,292  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 02:12:20,292  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 02:12:20,292  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 02:12:20,292  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 02:12:20,293 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:12:20,564 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 02:12:20,566 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-fc692cec-9452-424d-8e5a-768eae0da9ed', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 02:12:20,568 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:12:20,568 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-fc692cec-9452-424d-8e5a-768eae0da9ed
+2022-11-20 02:13:33,847  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 02:13:33,852  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 02:13:33,862  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 02:13:33,863  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 02:13:33,864  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 02:13:33,865  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 02:13:33,865  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 02:13:33,865  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 02:13:33,865  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 02:13:33,865 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:13:34,145 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 02:13:34,147 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-b1c05eda-9abb-4567-a495-e9cb70071d98', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 02:13:34,149 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:13:34,149 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-b1c05eda-9abb-4567-a495-e9cb70071d98
+2022-11-20 02:14:06,327  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 02:14:06,331  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 02:14:06,343  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 02:14:06,344  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 02:14:06,345  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 02:14:06,346  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 02:14:06,346  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 02:14:06,346  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 02:14:06,346  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 02:14:06,346 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:14:06,614 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 02:14:06,617 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-5abf4a2f-04f4-42b6-b4c4-219bb422fd3d', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 02:14:06,619 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:14:06,619 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-5abf4a2f-04f4-42b6-b4c4-219bb422fd3d
+2022-11-20 02:17:29,848  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 02:17:29,852  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 02:17:29,861  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 02:17:29,862  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 02:17:29,863  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 02:17:29,864  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 02:17:29,864  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 02:17:29,864  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 02:17:29,864  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 02:17:29,864 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:17:30,143 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 02:17:30,145 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-f0c2dab3-25c7-4ca6-a50a-ec90a9f10479', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 02:17:30,148 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:17:30,148 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-f0c2dab3-25c7-4ca6-a50a-ec90a9f10479
+2022-11-20 02:17:55,145 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:18:13,104  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 02:18:13,108  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 02:18:13,118  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 02:18:13,119  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 02:18:13,120  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 02:18:13,121  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 02:18:13,121  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 02:18:13,121  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 02:18:13,121  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 02:18:13,121 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:18:13,511 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 02:18:13,513 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-451e5149-ea9f-4f5f-88b7-a35d31062174', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 02:18:13,516 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:18:13,516 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-451e5149-ea9f-4f5f-88b7-a35d31062174
+2022-11-20 02:20:59,475  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 02:20:59,480  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 02:20:59,489  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 02:20:59,491  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 02:20:59,492  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 02:20:59,493  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 02:20:59,493  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 02:20:59,493  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 02:20:59,494  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 02:20:59,494 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:20:59,775 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 02:20:59,779 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-0add7623-ac34-4004-9453-0e987b710d34', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 02:20:59,782 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 02:20:59,783 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-0add7623-ac34-4004-9453-0e987b710d34
