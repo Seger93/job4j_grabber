@@ -3,7 +3,6 @@ package ru.job4j.gc.ref;
 import java.lang.ref.SoftReference;
 import java.util.ArrayList;
 import java.util.List;
-
 public class SoftDemo {
     public static void main(String[] args) {
         /*
