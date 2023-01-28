@@ -1,5 +1,6 @@
 package ru.job4j.ood.tdd;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
@@ -8,8 +9,8 @@ import static org.assertj.core.api.Assertions.*;
 import java.util.Calendar;
 import java.util.List;
 
-@Disabled("Тесты отключены. Удалить аннотацию после реализации всех методов по заданию.")
 public class Cinema3DTest {
+    @Ignore
     @Test
     public void whenBuyThenGetTicket() {
         Account account = new AccountCinema();
@@ -19,6 +20,7 @@ public class Cinema3DTest {
         assertThat(ticket).isEqualTo(new Ticket3D());
     }
 
+    @Ignore
     @Test
     public void whenAddSessionThenItExistsBetweenAllSessions() {
         Cinema cinema = new Cinema3D();
@@ -28,6 +30,7 @@ public class Cinema3DTest {
         assertThat(sessions).contains(session);
     }
 
+    @Ignore
     @Test
     public void whenBuyOnInvalidRowThenGetException() {
         Account account = new AccountCinema();
@@ -37,6 +40,7 @@ public class Cinema3DTest {
                 isInstanceOf(IllegalArgumentException.class);
     }
 
+    @Ignore
     @Test
     public void whenBuyOnInvalidColumnThenGetException() {
         Account account = new AccountCinema();
@@ -46,6 +50,7 @@ public class Cinema3DTest {
                 isInstanceOf(IllegalArgumentException.class);
     }
 
+    @Ignore
     @Test
     public void whenInvalidDateException() {
         Account account = new AccountCinema();
@@ -56,6 +61,7 @@ public class Cinema3DTest {
                 isInstanceOf(IllegalArgumentException.class);
     }
 
+    @Ignore
     @Test
     public void whenBuyTicketAndAccountDoesNotExist() {
         Cinema cinema = new Cinema3D();
