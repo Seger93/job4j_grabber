@@ -173,3 +173,2440 @@ Caused by: org.postgresql.util.PSQLException: The server requested SCRAM-based a
 2022-11-20 02:20:59,779 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-0add7623-ac34-4004-9453-0e987b710d34', class=ru.job4j.grabber.Grabber$GrabJob
 2022-11-20 02:20:59,782 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
 2022-11-20 02:20:59,783 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-0add7623-ac34-4004-9453-0e987b710d34
+2022-11-20 18:24:15,284  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 18:24:15,289  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 18:24:15,300  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 18:24:15,302  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 18:24:15,302  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 18:24:15,303  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 18:24:15,303  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 18:24:15,303  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 18:24:15,303  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 18:24:15,304 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:24:15,594 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:24:15,596 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-fa2d5763-1fe1-4330-939a-7b0281ad493c', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:24:15,599 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:24:15,599 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-fa2d5763-1fe1-4330-939a-7b0281ad493c
+2022-11-20 18:24:43,905 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:25:10,378 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:25:15,591 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-fa2d5763-1fe1-4330-939a-7b0281ad493c', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:25:15,592 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:25:15,592 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-fa2d5763-1fe1-4330-939a-7b0281ad493c
+2022-11-20 18:25:41,444 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:26:07,582 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:26:15,590 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-fa2d5763-1fe1-4330-939a-7b0281ad493c', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:26:15,590 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:26:15,591 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-fa2d5763-1fe1-4330-939a-7b0281ad493c
+2022-11-20 18:51:53,656  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 18:51:53,660  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 18:51:53,672  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 18:51:53,673  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 18:51:53,674  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 18:51:53,675  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 18:51:53,675  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 18:51:53,675  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 18:51:53,675  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 18:51:53,675 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:51:53,949 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:51:53,951 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-8d4dca11-54c8-48e7-a4ca-03abc60e3b63', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:51:53,954 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:51:53,954 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-8d4dca11-54c8-48e7-a4ca-03abc60e3b63
+2022-11-20 18:52:17,580 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:52:43,209 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:52:53,947 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-8d4dca11-54c8-48e7-a4ca-03abc60e3b63', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:52:53,947 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:52:53,947 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-8d4dca11-54c8-48e7-a4ca-03abc60e3b63
+2022-11-20 18:53:20,133 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:53:35,938 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (3328) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (0,2) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:53:35,998 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (2800) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (9,5) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:53:36,003 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (2792) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (10,3) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:53:36,027 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (2784) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (14,3) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:53:44,992 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:55:48,309  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 18:55:48,313  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 18:55:48,323  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 18:55:48,324  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 18:55:48,325  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 18:55:48,326  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 18:55:48,326  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 18:55:48,326  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 18:55:48,326  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 18:55:48,327 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:55:48,620 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:55:48,622 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-ed7c9b15-e169-44e2-a9c0-bffa8059372d', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:55:48,625 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:55:48,625 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-ed7c9b15-e169-44e2-a9c0-bffa8059372d
+2022-11-20 18:56:26,441  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 18:56:26,445  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 18:56:26,455  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 18:56:26,457  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 18:56:26,458  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 18:56:26,458  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 18:56:26,458  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 18:56:26,458  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 18:56:26,458  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 18:56:26,459 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:56:26,841 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:56:26,843 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-e2e08183-b46e-430f-889d-de919e725407', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:56:26,845 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:56:26,845 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-e2e08183-b46e-430f-889d-de919e725407
+2022-11-20 18:56:54,294 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:57:10,758 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:10,762 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:10,800 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:20,188 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:57:26,837 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-e2e08183-b46e-430f-889d-de919e725407', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:57:26,837 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:57:26,837 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-e2e08183-b46e-430f-889d-de919e725407
+2022-11-20 18:57:32,629 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:32,631 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:32,681 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:44,086 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:44,088 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:44,089 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:44,140 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:48,678 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:48,679 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:48,725 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:55,326 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:55,326 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:55,328 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:55,357 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:57:55,381 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:58,885 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:58,886 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:58,888 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:57:58,929 ERROR ru.job4j.grabber.PsqlStore:getAll:62 - Ошибка получения списка всех вакнсий
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at ru.job4j.grabber.PsqlStore.getAll(PsqlStore.java:56)
+	at ru.job4j.grabber.Grabber.lambda$web$0(Grabber.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-11-20 18:58:11,517 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,518 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,518 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,519 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,520 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,520 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,521 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,521 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,522 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,523 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,523 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,524 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,524 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,524 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,525 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,526 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,526 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,527 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,527 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,528 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,528 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,529 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,529 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,530 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,531 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,531 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,532 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,532 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,533 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,533 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,534 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,534 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,535 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,535 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,536 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,536 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,537 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,538 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,539 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,540 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,540 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,541 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,542 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,542 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,543 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,543 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,544 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,545 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,545 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,546 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,547 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,547 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,548 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,549 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,550 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,550 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,551 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,551 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,552 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,552 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,553 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,554 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,555 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,555 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,556 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,557 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,557 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,558 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,558 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,559 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,559 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,560 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,560 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,560 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,561 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,561 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,562 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,563 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,563 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,564 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,565 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,565 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,566 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,566 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,567 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,567 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,568 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,569 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,570 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,571 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,572 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,572 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,573 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,574 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,575 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,575 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,576 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,577 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,577 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,578 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,579 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,579 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,580 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,580 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,581 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,582 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,583 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,584 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,585 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,586 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,587 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,587 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,588 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,588 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,589 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,589 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,590 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,591 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,591 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,592 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,592 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,593 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,594 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,594 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:11,595 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: отношение "post" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 18:58:30,831  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 18:58:30,836  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 18:58:30,848  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 18:58:30,850  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 18:58:30,851  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 18:58:30,852  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 18:58:30,852  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 18:58:30,852  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 18:58:30,852  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 18:58:30,852 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:58:31,127 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:58:31,129 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-9ff3a3a6-9843-4639-b617-94d165780fbc', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:58:31,131 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:58:31,132 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-9ff3a3a6-9843-4639-b617-94d165780fbc
+2022-11-20 18:58:54,943 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:59:18,452 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 18:59:31,123 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-9ff3a3a6-9843-4639-b617-94d165780fbc', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 18:59:31,124 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 18:59:31,124 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-9ff3a3a6-9843-4639-b617-94d165780fbc
+2022-11-20 19:00:00,993 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:00:30,572 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 19:00:31,123 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-9ff3a3a6-9843-4639-b617-94d165780fbc', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 19:00:31,123 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:00:31,123 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-9ff3a3a6-9843-4639-b617-94d165780fbc
+2022-11-20 19:08:00,672  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 19:08:00,676  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 19:08:00,686  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 19:08:00,688  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 19:08:00,688  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 19:08:00,689  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 19:08:00,689  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 19:08:00,689  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 19:08:00,690  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 19:08:00,690 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:08:00,980 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 19:08:00,982 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-e6c7e46c-b3db-4e74-b6af-639df9e09023', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 19:08:00,986 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:08:00,986 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-e6c7e46c-b3db-4e74-b6af-639df9e09023
+2022-11-20 19:08:24,567 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:08:54,476 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 19:09:00,977 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-e6c7e46c-b3db-4e74-b6af-639df9e09023', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 19:09:00,977 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:09:00,977 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-e6c7e46c-b3db-4e74-b6af-639df9e09023
+2022-11-20 19:09:27,469 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:09:37,635 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (3328) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (0,2) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 19:09:37,682 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (2800) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (9,5) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 19:09:37,687 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (2792) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (10,3) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 19:09:37,709 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (2784) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (14,3) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 19:09:52,289 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 19:10:00,977 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-e6c7e46c-b3db-4e74-b6af-639df9e09023', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 19:10:00,978 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:10:00,978 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-e6c7e46c-b3db-4e74-b6af-639df9e09023
+2022-11-20 19:10:29,796 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:10:34,995 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (3328) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (20,5) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 19:10:35,015 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (2800) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (20,6) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 19:10:35,018 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (2792) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (20,7) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 19:10:35,028 ERROR ru.job4j.grabber.PsqlStore:save:48 - Ошибка создания вакансии
+org.postgresql.util.PSQLException: ОШИБКА: размер строки индекса (2784) больше предельного для btree версии 4 размера (2704) (индекс "post_link_key")
+  Подробности: Строка индекса ссылается на кортеж (20,8) в отношении "post".
+  Подсказка: Значения, занимающие больше 1/3 страницы буфера, не могут быть индексированы.
+Возможно, вам стоит применить индекс функции с MD5-хешем значения или полнотекстовую индексацию.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at ru.job4j.grabber.PsqlStore.save(PsqlStore.java:41)
+	at ru.job4j.grabber.Grabber$GrabJob.execute(Grabber.java:94)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-20 19:10:59,479 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 19:11:00,977 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-e6c7e46c-b3db-4e74-b6af-639df9e09023', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 19:11:00,977 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:11:00,978 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-e6c7e46c-b3db-4e74-b6af-639df9e09023
+2022-11-20 19:14:19,762  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-20 19:14:19,768  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-20 19:14:19,782  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-20 19:14:19,783  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-20 19:14:19,784  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-20 19:14:19,785  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-20 19:14:19,785  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-20 19:14:19,785  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-20 19:14:19,785  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-20 19:14:19,785 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:14:20,055 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 19:14:20,057 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-e07c1771-d2d1-4156-afe1-6c834ba32173', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 19:14:20,060 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:14:20,060 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-e07c1771-d2d1-4156-afe1-6c834ba32173
+2022-11-20 19:14:45,607 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:15:13,888 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-20 19:15:20,067 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-e07c1771-d2d1-4156-afe1-6c834ba32173', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-20 19:15:20,068 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-20 19:15:20,068 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-e07c1771-d2d1-4156-afe1-6c834ba32173
+2022-11-20 19:15:46,664 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-30 23:20:23,013  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1220 - Using default implementation for ThreadExecutor
+2022-11-30 23:20:23,020  INFO org.quartz.simpl.SimpleThreadPool:initialize:268 - Job execution threads will use class loader of thread: main
+2022-11-30 23:20:23,036  INFO org.quartz.core.SchedulerSignalerImpl:<init>:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-30 23:20:23,038  INFO org.quartz.core.QuartzScheduler:<init>:229 - Quartz Scheduler v.2.3.2 created.
+2022-11-30 23:20:23,040  INFO org.quartz.simpl.RAMJobStore:initialize:155 - RAMJobStore initialized.
+2022-11-30 23:20:23,041  INFO org.quartz.core.QuartzScheduler:initialize:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-30 23:20:23,041  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1374 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-11-30 23:20:23,041  INFO org.quartz.impl.StdSchedulerFactory:instantiate:1378 - Quartz scheduler version: 2.3.2
+2022-11-30 23:20:23,041  INFO org.quartz.core.QuartzScheduler:start:547 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-11-30 23:20:23,041 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-30 23:20:23,366 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 1 triggers
+2022-11-30 23:20:23,369 DEBUG org.quartz.simpl.PropertySettingJobFactory:newJob:51 - Producing instance of Job 'DEFAULT.6da64b5bd2ee-a0fd4788-cc8f-4545-91d2-1d8685115740', class=ru.job4j.grabber.Grabber$GrabJob
+2022-11-30 23:20:23,371 DEBUG org.quartz.core.QuartzSchedulerThread:run:291 - batch acquisition of 0 triggers
+2022-11-30 23:20:23,371 DEBUG org.quartz.core.JobRunShell:run:201 - Calling execute on job DEFAULT.6da64b5bd2ee-a0fd4788-cc8f-4545-91d2-1d8685115740
