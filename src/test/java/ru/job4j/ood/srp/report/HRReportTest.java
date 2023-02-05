@@ -3,12 +3,12 @@ package ru.job4j.ood.srp.report;
 import org.junit.jupiter.api.Test;
 import ru.job4j.ood.srp.model.Employee;
 import ru.job4j.ood.srp.store.MemStore;
-import ru.job4j.ood.srp.tools.CompareHR;
+import ru.job4j.ood.srp.tools.HRCompare;
 import java.util.Calendar;
 import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class ReportHRTest {
+public class HRReportTest {
 
     @Test
     public void whenOldGenerated() {
@@ -25,8 +25,8 @@ public class ReportHRTest {
         store.add(anna);
         store.add(darya);
         List<Employee> workers = store.findBy(em -> true);
-        workers.sort(new CompareHR());
-        Report engine = new ReportHR(store);
+        workers.sort(new HRCompare());
+        Report engine = new HRReport(store);
         StringBuilder expect = new StringBuilder()
                 .append("Name; Hired; Fired; Salary;")
                 .append(System.lineSeparator());

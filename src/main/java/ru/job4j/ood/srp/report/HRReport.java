@@ -2,14 +2,14 @@ package ru.job4j.ood.srp.report;
 
 import ru.job4j.ood.srp.model.Employee;
 import ru.job4j.ood.srp.store.Store;
-import ru.job4j.ood.srp.tools.CompareHR;
+import ru.job4j.ood.srp.tools.HRCompare;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class ReportHR implements Report {
+public class HRReport implements Report {
     private final Store store;
 
-    public ReportHR(Store store) {
+    public HRReport(Store store) {
         this.store = store;
     }
 
@@ -17,7 +17,7 @@ public class ReportHR implements Report {
     public String generate(Predicate<Employee> filter) {
         StringBuilder text = new StringBuilder();
         List<Employee> list = store.findBy(filter);
-        list.sort(new CompareHR());
+        list.sort(new HRCompare());
         text.append("Name; Hired; Fired; Salary;")
                 .append(System.lineSeparator());
         for (Employee employee : list) {

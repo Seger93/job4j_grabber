@@ -3,10 +3,10 @@ package ru.job4j.ood.srp.tools;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-public class ReaderCSV {
-    public String readCSVFile() {
+public class CSVReader {
+    public String readCSVFile(String s) {
         StringBuilder records = new StringBuilder();
-        try (Scanner scanner = new Scanner(new File("report.csv"));) {
+        try (Scanner scanner = new Scanner(new File(s))) {
             while (scanner.hasNextLine()) {
                 records.append(scanner.nextLine())
                         .append(System.lineSeparator());
