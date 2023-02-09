@@ -6,7 +6,9 @@ public class Book {
     private String autor;
     private String price;
     private int genre;
-    //Абстрактное поле класса.
+    /*
+    Абстрактное поле класса.
+     */
     private Random random;
 
     public Book(String autor, String price, int genre, Random random) {

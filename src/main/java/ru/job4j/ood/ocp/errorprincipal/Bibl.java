@@ -8,12 +8,16 @@ public class Bibl {
 
     private List<Book> books = new LinkedList<>();
 
-    //Возвратит абстракцию
+    /*
+    Возвратит абстракцию
+     */
     public static List<Object> autor(String name) {
         return null;
     }
 
-    //метод принимает и возвращает объект - будет мешать наследованию.
+    /*
+    метод принимает и возвращает объект - будет мешать наследованию.
+     */
     public static Bibl biblGen(Book book) {
         return new Bibl();
     }
