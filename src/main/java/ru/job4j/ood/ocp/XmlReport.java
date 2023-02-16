@@ -32,14 +32,14 @@ public class XmlReport implements Report {
 
     @Override
     public String generate(Predicate<Employee> filter) {
-        StringBuilder text = new StringBuilder();
+       String text = "";
         try (StringWriter writer = new StringWriter()) {
             Employees employee = new Employees(store.findBy(filter));
             marshaller.marshal(employee, writer);
-            text.append(writer.getBuffer().toString());
+            text = writer.getBuffer().toString();
         } catch (JAXBException | IOException e) {
             e.printStackTrace();
         }
-        return text.toString();
+        return text;
     }
 }
