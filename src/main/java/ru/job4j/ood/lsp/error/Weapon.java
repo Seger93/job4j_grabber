@@ -30,7 +30,7 @@ class Weapon {
     public int target(Targ cell, Weapon weapon) {
         int res = 0;
         Random random = new Random();
-        if (cell.shield.get(random.nextInt(5)) < weapon.damage) {
+        if (cell.shield.get(random.nextInt(5)) < (Integer) weapon.damage) {
             res = 1;
         }
         if (cell.shield.get(random.nextInt(5)) >= (Integer) weapon.damage) {
