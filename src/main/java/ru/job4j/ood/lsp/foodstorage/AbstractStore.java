@@ -9,9 +9,6 @@ abstract class AbstractStore implements Store {
 
     private final List<Food> foodList = new ArrayList<>();
 
-    public AbstractStore() {
-    }
-
     @Override
     public boolean add(Food food) {
         if (productVerification(food)) {
@@ -23,7 +20,7 @@ abstract class AbstractStore implements Store {
 
     @Override
     public List<Food> get() {
-        return this.foodList;
+        return new ArrayList<>(foodList);
     }
 
     boolean productVerification(Food food) {
