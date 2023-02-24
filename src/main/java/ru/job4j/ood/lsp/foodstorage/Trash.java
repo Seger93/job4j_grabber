@@ -10,7 +10,7 @@ public class Trash extends AbstractStore {
         this.calculator = calculator;
     }
 
-     boolean productVerification(Food food) {
+     protected boolean productVerification(Food food) {
         int fresh = calculator.calculateInPercent(food.getCreateDate(), food.getExpiryDate());
         return fresh >= 0;
     }

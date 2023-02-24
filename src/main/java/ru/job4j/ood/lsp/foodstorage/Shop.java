@@ -11,7 +11,7 @@ public class Shop extends AbstractStore {
         this.calculator = calculator;
     }
 
-     boolean productVerification(Food food) {
+   protected boolean productVerification(Food food) {
         boolean res = false;
         int fresh = calculator.calculateInPercent(food.getCreateDate(), food.getExpiryDate());
         if (fresh >= 25 && fresh < 75) {

@@ -23,7 +23,5 @@ abstract class AbstractStore implements Store {
         return new ArrayList<>(foodList);
     }
 
-    boolean productVerification(Food food) {
-        return false;
-    }
+    protected abstract boolean productVerification(Food food);
 }
