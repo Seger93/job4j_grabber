@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface AbstractParking {
 
-    void sizePlace();
+    void sizePlace(List<Cars> car);
 }
