@@ -16,6 +16,7 @@ public class ControlQuality {
         for (Store s : storeList) {
             if (s.add(food)) {
                 store = s;
+                break;
             }
         }
         return store;
