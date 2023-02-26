@@ -1,54 +1,46 @@
 package ru.job4j.ood.lsp.parking;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import ru.job4j.ood.lsp.parking.model.Cars;
-
-import java.util.ArrayList;
-import java.util.List;
+import ru.job4j.ood.lsp.parking.model.Car;
+import ru.job4j.ood.lsp.parking.model.PassengerCar;
+import ru.job4j.ood.lsp.parking.model.Truck;
+import static org.assertj.core.api.Assertions.*;
 
 class ParkingTest {
 
     @Test
-    public void whenSizeIsEight() {
-        Cars cars = new Cars(1);
-        Cars cars1 = new Cars(3);
-        Cars cars2 = new Cars(4);
-        List<Cars> carsList = new ArrayList<>();
-        carsList.add(cars);
-        carsList.add(cars1);
-        carsList.add(cars2);
-        Parking parking = new Parking();
-        parking.sizePlace(carsList);
-        int[] exp = new int[8];
-        Assertions.assertArrayEquals(exp, parking.getPlace());
+    public void whenParkIsFalse() {
+        Car cars2 = new Truck(5);
+        CreateParking createParking = new CreateParking(4, 1);
+        assertThat(createParking.park(cars2)).isFalse();
     }
 
     @Test
-    public void whenSizeTruck() {
-        Cars cars = new Cars(1);
-        Cars cars1 = new Cars(3);
-        Cars cars2 = new Cars(4);
-        List<Cars> carsList = new ArrayList<>();
-        carsList.add(cars);
-        carsList.add(cars1);
-        carsList.add(cars2);
-        Parking parking = new Parking();
-        parking.sizePlace(carsList);
-        Assertions.assertEquals(2, parking.getTruck().size());
+    public void whenParkIsThue() {
+        Car cars2 = new Truck(5);
+        CreateParking createParking = new CreateParking(5, 2);
+        assertThat(createParking.park(cars2)).isTrue();
     }
 
     @Test
-    public void whenSizeCars() {
-        Cars cars = new Cars(1);
-        Cars cars1 = new Cars(3);
-        Cars cars2 = new Cars(4);
-        List<Cars> carsList = new ArrayList<>();
-        carsList.add(cars);
-        carsList.add(cars1);
-        carsList.add(cars2);
-        Parking parking = new Parking();
-        parking.sizePlace(carsList);
-        Assertions.assertEquals(1, parking.getCars().size());
+    public void whenParkTruckIsFalse() {
+        Car cars = new Truck(3);
+        Car cars1 = new PassengerCar(1);
+        Car cars2 = new Truck(5);
+        CreateParking createParking = new CreateParking(5, 2);
+        createParking.park(cars);
+        createParking.park(cars1);
+        assertThat(createParking.park(cars2)).isFalse();
+    }
+
+    @Test
+    public void whenParkPassCarIsFalse() {
+        Car cars = new PassengerCar(1);
+        Car cars1 = new PassengerCar(1);
+        Car cars2 = new PassengerCar(1);
+        CreateParking createParking = new CreateParking(5, 2);
+        createParking.park(cars);
+        createParking.park(cars1);
+        assertThat(createParking.park(cars2)).isFalse();
     }
 }
