@@ -5,7 +5,7 @@ import ru.job4j.ood.lsp.parking.model.Car;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CreateParking implements Parking {
+public class SimpleParking implements Parking {
 
     private int truckPlace;
     private int passengersPlace;
@@ -13,7 +13,7 @@ public class CreateParking implements Parking {
 
     private List<Car> passengersCars = new ArrayList<>();
 
-    public CreateParking(int truckPlace, int passengersPlace) {
+    public SimpleParking(int truckPlace, int passengersPlace) {
         this.truckPlace = truckPlace;
         this.passengersPlace = passengersPlace;
     }
