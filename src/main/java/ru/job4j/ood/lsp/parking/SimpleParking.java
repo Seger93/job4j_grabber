@@ -1,6 +1,7 @@
 package ru.job4j.ood.lsp.parking;
 
 import ru.job4j.ood.lsp.parking.model.Car;
+import ru.job4j.ood.lsp.parking.model.PassengerCar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,14 +22,13 @@ public class SimpleParking implements Parking {
     @Override
     public boolean park(Car car) {
         boolean rsl = false;
-        if (car.getSize() > 1 && truckPlace >= car.getSize()) {
+        if (car.getSize() > PassengerCar.SIZE && truckPlace >= car.getSize()) {
             truckPlace = truckPlace - car.getSize();
-            rsl = truck.add(car);
+            truck.add(car);
+            return true;
         }
-        if (car.getSize() <= 1 && passengersPlace >= car.getSize()) {
             passengersPlace = passengersPlace - car.getSize();
-            rsl = passengersCars.add(car);
-        }
+            passengersCars.add(car);
         return rsl;
     }
 }
