@@ -24,23 +24,25 @@ public class TodoApp {
             System.out.println(MENU);
             System.out.println(ASK);
             int choice = Integer.parseInt(scanner.nextLine());
-            if (choice == 1) {
-                System.out.println("Укажите имя элемента: ");
-                name = scanner.nextLine();
-                menu.add(Menu.ROOT, name, STUB_ACTION);
-            } else if (choice == 2) {
-                System.out.println("Укажите имя родительского элемента");
-                name = scanner.nextLine();
-                System.out.println("Укажите имя добавляемого элемента");
-                String child = scanner.nextLine();
-                menu.add(name, child, STUB_ACTION);
-            } else if (choice == 3) {
-                DEFAULT_ACTION.delegate();
-            } else if (choice == 4) {
-                menuPrinter.print(menu);
-            } else {
-                System.out.println("Программа завершена");
-                run = false;
+            switch (choice) {
+                case 1 -> {
+                    System.out.println("Укажите имя элемента: ");
+                    name = scanner.nextLine();
+                    menu.add(Menu.ROOT, name, STUB_ACTION);
+                }
+                case 2 -> {
+                    System.out.println("Укажите имя родительского элемента");
+                    name = scanner.nextLine();
+                    System.out.println("Укажите имя добавляемого элемента");
+                    String child = scanner.nextLine();
+                    menu.add(name, child, STUB_ACTION);
+                }
+                case 3 -> DEFAULT_ACTION.delegate();
+                case 4 -> menuPrinter.print(menu);
+                default -> {
+                    System.out.println("Программа завершена");
+                    run = false;
+                }
             }
         }
     }
