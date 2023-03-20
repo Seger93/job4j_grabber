@@ -2,6 +2,7 @@ package ru.job4j.ood.lsp.foodstorage;
 
 import ru.job4j.ood.lsp.foodstorage.model.Food;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ControlQuality {
@@ -20,5 +21,15 @@ public class ControlQuality {
             }
         }
         return store;
+    }
+
+    public void restore() {
+        ArrayList<Food> arrayList = new ArrayList<>();
+        for (Store s: this.storeList) {
+            arrayList.addAll(s.get());
+        }
+        for (Food food: arrayList) {
+            distribution(food);
+        }
     }
 }
